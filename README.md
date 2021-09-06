@@ -262,6 +262,30 @@ try {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/buffer/ctor`][@stdlib/buffer/ctor]: buffer.
+-   [`@stdlib/array/buffer`][@stdlib/array/buffer]: arrayBuffer.
+-   [`@stdlib/array/float32`][@stdlib/array/float32]: float32Array.
+-   [`@stdlib/array/float64`][@stdlib/array/float64]: float64Array.
+-   [`@stdlib/array/int16`][@stdlib/array/int16]: int16Array.
+-   [`@stdlib/array/int32`][@stdlib/array/int32]: int32Array.
+-   [`@stdlib/array/int8`][@stdlib/array/int8]: int8Array.
+-   [`@stdlib/array/uint16`][@stdlib/array/uint16]: uint16Array.
+-   [`@stdlib/array/uint32`][@stdlib/array/uint32]: uint32Array.
+-   [`@stdlib/array/uint8`][@stdlib/array/uint8]: uint8Array.
+-   [`@stdlib/array/uint8c`][@stdlib/array/uint8c]: uint8ClampedArray.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -320,6 +344,32 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-shared-buffer/main/LICENSE
 
 [mdn-sharedarraybuffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer
+
+<!-- <related-links> -->
+
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
+
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
+
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
+
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+
+[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16
+
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
+
+[@stdlib/array/int8]: https://github.com/stdlib-js/array-int8
+
+[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16
+
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
+
+[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c
+
+<!-- </related-links> -->
 
 </section>
 
