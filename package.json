@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-shared-buffer",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "SharedArrayBuffer.",
   "license": "Apache-2.0",
   "author": {
