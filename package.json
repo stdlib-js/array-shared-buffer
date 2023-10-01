@@ -40,7 +40,7 @@
     "@stdlib/assert-has-sharedarraybuffer-support": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.0.6",
+    "@stdlib/array-float64": "^0.1.0",
     "@stdlib/array-uint8": "^0.1.0",
     "@stdlib/assert-has-own-property": "^0.1.0",
     "@stdlib/assert-has-property": "^0.1.0",
@@ -49,9 +49,9 @@
     "@stdlib/assert-is-sharedarraybuffer": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/constants-float64-max-safe-integer": "^0.1.0",
-    "@stdlib/math-base-special-pow": "^0.0.7",
-    "@stdlib/number-uint8-base-to-binary-string": "^0.0.8",
-    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/math-base-special-pow": "^0.1.0",
+    "@stdlib/number-uint8-base-to-binary-string": "^0.1.0",
+    "@stdlib/random-base-randu": "^0.1.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
