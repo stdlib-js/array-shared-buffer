@@ -45,43 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-shared-buffer
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-SharedArrayBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-shared-buffer/tags). For example,
-
-```javascript
-SharedArrayBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@v0.1.1-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var SharedArrayBuffer = require( 'path/to/vendor/umd/array-shared-buffer/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.SharedArrayBuffer;
-})();
-</script>
+var SharedArrayBuffer = require( '@stdlib/array-shared-buffer' );
 ```
 
 #### SharedArrayBuffer( size )
@@ -244,17 +231,12 @@ try {
 
 <!-- eslint-disable no-unused-vars -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var Float64Array = require( '@stdlib/array-float64' );
+var Uint8Array = require( '@stdlib/array-uint8' );
+var toBinaryString = require( '@stdlib/number-uint8-base-to-binary-string' );
+var SharedArrayBuffer = require( '@stdlib/array-shared-buffer' );
 
 function main() {
     var bytes;
@@ -285,11 +267,6 @@ try {
 } catch ( err ) {
     console.error( 'Environment does not provide SharedArrayBuffer support.' );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -367,8 +344,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-shared-buffer.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-shared-buffer
 
-[test-image]: https://github.com/stdlib-js/array-shared-buffer/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/array-shared-buffer/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/array-shared-buffer/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-shared-buffer/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-shared-buffer/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-shared-buffer?branch=main
@@ -401,27 +378,27 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/umd
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/umd
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
-[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16/tree/umd
+[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16
 
-[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32/tree/umd
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
 
-[@stdlib/array/int8]: https://github.com/stdlib-js/array-int8/tree/umd
+[@stdlib/array/int8]: https://github.com/stdlib-js/array-int8
 
-[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16/tree/umd
+[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
-[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c/tree/umd
+[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c
 
 <!-- </related-links> -->
 
