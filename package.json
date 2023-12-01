@@ -47,7 +47,7 @@
     "@stdlib/assert-instance-of": "^0.1.1",
     "@stdlib/assert-is-function": "^0.1.1",
     "@stdlib/assert-is-sharedarraybuffer": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/constants-float64-max-safe-integer": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/number-uint8-base-to-binary-string": "^0.1.1",
