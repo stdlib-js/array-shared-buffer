@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var hasSharedArrayBufferSupport = require( '@stdlib/assert-has-sharedarraybuffer-support' ); // eslint-disable-line id-length
 var isSharedArrayBuffer = require( '@stdlib/assert-is-sharedarraybuffer' );
 var pkg = require( './../package.json' ).name;
