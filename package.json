@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-shared-buffer",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "SharedArrayBuffer.",
   "license": "Apache-2.0",
   "author": {
@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-sharedarraybuffer-support": "^0.2.1"
+    "@stdlib/assert-has-sharedarraybuffer-support": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-uint8": "^0.2.1",
-    "@stdlib/assert-has-own-property": "^0.2.1",
-    "@stdlib/assert-has-property": "^0.2.1",
-    "@stdlib/assert-instance-of": "^0.2.1",
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/assert-is-sharedarraybuffer": "^0.2.1",
-    "@stdlib/constants-float64-max-safe-integer": "^0.2.1",
+    "@stdlib/assert-has-own-property": "^0.2.2",
+    "@stdlib/assert-has-property": "^0.2.2",
+    "@stdlib/assert-instance-of": "^0.2.2",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-sharedarraybuffer": "^0.2.2",
+    "@stdlib/constants-float64-max-safe-integer": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/number-uint8-base-to-binary-string": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
