@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-shared-buffer",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "SharedArrayBuffer.",
   "license": "Apache-2.0",
   "author": {
@@ -37,19 +37,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-sharedarraybuffer-support": "^0.2.2"
+    "@stdlib/assert-has-sharedarraybuffer-support": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
-    "@stdlib/assert-has-own-property": "^0.2.2",
-    "@stdlib/assert-has-property": "^0.2.2",
+    "@stdlib/assert-has-own-property": "^0.2.3",
+    "@stdlib/assert-has-property": "^0.2.3",
     "@stdlib/assert-instance-of": "^0.3.0",
-    "@stdlib/assert-is-function": "^0.2.2",
-    "@stdlib/assert-is-sharedarraybuffer": "^0.2.2",
-    "@stdlib/constants-float64-max-safe-integer": "^0.2.2",
+    "@stdlib/assert-is-function": "^0.2.3",
+    "@stdlib/assert-is-sharedarraybuffer": "^0.2.3",
+    "@stdlib/constants-float64-max-safe-integer": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/number-uint8-base-to-binary-string": "^0.2.2",
+    "@stdlib/number-uint8-base-to-binary-string": "^0.2.3",
     "@stdlib/random-base-randu": "^0.2.2",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
